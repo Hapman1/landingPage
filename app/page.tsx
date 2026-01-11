@@ -168,7 +168,12 @@ export default function HapmasentLanding() {
 
             {/* Hero Image */}
             <div className="relative lg:h-[500px] flex items-center justify-center">
-              <img src="/modern-investment-mobile-app-mockup-showing-dashbo.jpg" alt="Investment App" className="w-full max-w-md drop-shadow-2xl" />
+              <img
+                src="/modern-investment-mobile-app-mockup-showing-dashbo.jpg"
+                alt="Investment App"
+                className="w-full max-w-md drop-shadow-2xl"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
@@ -480,7 +485,7 @@ export default function HapmasentLanding() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">What Our Investors Say</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Join thousands of satisfied investors earning consistent returns with Hapmasent
+              Join thousands of satisfied investors who trust Hapmasent with their financial growth
             </p>
           </div>
 
@@ -493,13 +498,18 @@ export default function HapmasentLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  "I've been investing with Hapmasent for 4 months now and the returns are always on time. Very reliable
-                  platform with excellent customer support."
+                  "Hapmasent transformed my financial situation. The weekly returns are consistent and the platform is
+                  incredibly easy to use. Highly recommend!"
                 </p>
                 <div className="flex items-center gap-3">
-                  <img src="/professional-woman-avatar.png" alt="Investor" className="h-12 w-12 rounded-full" />
+                  <img
+                    src="/professional-woman-avatar.png"
+                    alt="Investor"
+                    className="h-12 w-12 rounded-full"
+                    loading="lazy"
+                  />
                   <div>
-                    <div className="font-semibold">Aisha Mohammed</div>
+                    <div className="font-semibold text-foreground">Sarah Johnson</div>
                     <div className="text-sm text-muted-foreground">Lagos, Nigeria</div>
                   </div>
                 </div>
@@ -514,13 +524,18 @@ export default function HapmasentLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  "The weekly 7% return is consistent and transparent. I started with Dawn tier and now I'm fully
-                  invested in Dusk tier. Highly recommended!"
+                  "Been investing for 3 months now. Returns are exactly as promised and withdrawal process is smooth.
+                  Great customer support too!"
                 </p>
                 <div className="flex items-center gap-3">
-                  <img src="/professional-man-avatar.png" alt="Investor" className="h-12 w-12 rounded-full" />
+                  <img
+                    src="/professional-man-avatar.png"
+                    alt="Investor"
+                    className="h-12 w-12 rounded-full"
+                    loading="lazy"
+                  />
                   <div>
-                    <div className="font-semibold">Chukwudi Okonkwo</div>
+                    <div className="font-semibold text-foreground">Michael Okonkwo</div>
                     <div className="text-sm text-muted-foreground">Abuja, Nigeria</div>
                   </div>
                 </div>
@@ -535,13 +550,18 @@ export default function HapmasentLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  "Best investment decision I made this year. The app is easy to use and tracking my returns is
-                  seamless. Professional team, great results!"
+                  "The transparency and security measures give me peace of mind. This is the real deal - genuine
+                  investment platform!"
                 </p>
                 <div className="flex items-center gap-3">
-                  <img src="/professional-woman-smiling-avatar.png" alt="Investor" className="h-12 w-12 rounded-full" />
+                  <img
+                    src="/professional-woman-smiling-avatar.png"
+                    alt="Investor"
+                    className="h-12 w-12 rounded-full"
+                    loading="lazy"
+                  />
                   <div>
-                    <div className="font-semibold">Blessing Adeyemi</div>
+                    <div className="font-semibold text-foreground">Blessing Adeyemi</div>
                     <div className="text-sm text-muted-foreground">Port Harcourt, Nigeria</div>
                   </div>
                 </div>
@@ -554,50 +574,48 @@ export default function HapmasentLanding() {
       {/* Download Section */}
       <section className="py-20 bg-gradient-to-br from-[#22C55E] to-[#16A34A] text-white">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            <div className="relative h-[400px] lg:h-[500px] flex items-center justify-center order-2 lg:order-1">
+              <img
+                src="/mobile-app-screenshots-showcase-investment-platfor.jpg"
+                alt="Mobile App"
+                className="w-full max-w-md drop-shadow-2xl"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="order-1 lg:order-2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-balance">Download the Hapmasent App Today</h2>
-              <p className="text-lg text-white/90 text-pretty leading-relaxed">
-                Start your investment journey with our intuitive mobile app. Available on Android, iOS, and Web
-                platforms for seamless access anywhere, anytime.
+              <p className="text-lg text-white/90 leading-relaxed">
+                Start your investment journey with our easy-to-use mobile app. Track your returns, manage your
+                portfolio, and withdraw earnings anytime, anywhere.
               </p>
 
-              <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-white text-[#22C55E] hover:bg-white/90">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                  <div className="text-3xl font-bold">50K+</div>
+                  <div className="text-sm text-white/80">Downloads</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+                  <div className="text-3xl font-bold">4.8</div>
+                  <div className="text-sm text-white/80">App Rating</div>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Button size="lg" className="bg-white text-[#22C55E] hover:bg-white/90 flex-1">
                   <Download className="mr-2 h-5 w-5" />
-                  Android App
-                </Button>
-                <Button size="lg" className="bg-white text-[#22C55E] hover:bg-white/90">
-                  <Download className="mr-2 h-5 w-5" />
-                  iOS App
+                  Download for Android
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white/10 bg-transparent"
+                  className="border-white text-white hover:bg-white/10 flex-1 bg-transparent"
                 >
-                  Open Web App
+                  <Download className="mr-2 h-5 w-5" />
+                  Download for iOS
                 </Button>
               </div>
-
-              <div className="grid grid-cols-3 gap-6 pt-4">
-                <div>
-                  <div className="text-3xl font-bold">10K+</div>
-                  <div className="text-sm text-white/80">Downloads</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold">4.8</div>
-                  <div className="text-sm text-white/80">App Rating</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold">5K+</div>
-                  <div className="text-sm text-white/80">Active Users</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center">
-              <img src="/mobile-app-screenshots-showcase-investment-platfor.jpg" alt="App Screenshots" className="w-full max-w-lg drop-shadow-2xl" />
             </div>
           </div>
         </div>
@@ -609,126 +627,144 @@ export default function HapmasentLanding() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">Get In Touch</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Have questions? Our team is here to help you get started with your investment journey
+              Have questions? We're here to help. Reach out to us through any of these channels.
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-            {/* Contact Form */}
-            <Card>
-              <CardHeader>
-                <CardTitle>Send Us a Message</CardTitle>
-                <CardDescription>Fill out the form and we'll get back to you within 24 hours</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form className="space-y-4">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <Label htmlFor="name">Full Name</Label>
-                      <Input id="name" placeholder="John Doe" className="mt-1" />
-                    </div>
-                    <div>
-                      <Label htmlFor="email">Email</Label>
-                      <Input id="email" type="email" placeholder="john@example.com" className="mt-1" />
-                    </div>
-                  </div>
-                  <div>
-                    <Label htmlFor="phone">Phone Number</Label>
-                    <Input id="phone" type="tel" placeholder="+234 800 000 0000" className="mt-1" />
-                  </div>
-                  <div>
-                    <Label htmlFor="subject">Subject</Label>
-                    <Input id="subject" placeholder="Investment Inquiry" className="mt-1" />
-                  </div>
-                  <div>
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea id="message" placeholder="Tell us how we can help..." rows={4} className="mt-1" />
-                  </div>
-                  <Button type="submit" className="w-full bg-[#22C55E] hover:bg-[#16A34A] text-white">
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
-
+          <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {/* Contact Information */}
             <div className="space-y-6">
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex items-start gap-4">
-                    <div className="h-12 w-12 rounded-lg bg-[#22C55E]/10 flex items-center justify-center shrink-0">
-                      <Mail className="h-6 w-6 text-[#22C55E]" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-lg mb-1">Email</h3>
-                      <p className="text-muted-foreground">support@hapmasent.com</p>
-                      <p className="text-sm text-muted-foreground mt-1">We reply within 24 hours</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardContent className="pt-6">
+              <Card className="border-border hover:shadow-lg transition-shadow">
+                <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="h-12 w-12 rounded-lg bg-[#22C55E]/10 flex items-center justify-center shrink-0">
                       <MessageCircle className="h-6 w-6 text-[#22C55E]" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-1">WhatsApp</h3>
-                      <p className="text-muted-foreground">+234 812 233 6699</p>
-                      <p className="text-sm text-muted-foreground mt-1">Chat with us instantly</p>
+                      <h3 className="font-semibold text-lg mb-2 text-foreground">WhatsApp Support</h3>
+                      <p className="text-muted-foreground mb-3 leading-relaxed">
+                        Get instant responses to your questions
+                      </p>
+                      <a
+                        href="https://wa.me/2348168818893"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#22C55E] hover:text-[#16A34A] font-medium"
+                      >
+                        +234 816 881 8893
+                      </a>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
-                <CardContent className="pt-6">
+              <Card className="border-border hover:shadow-lg transition-shadow">
+                <CardContent className="p-6">
                   <div className="flex items-start gap-4">
-                    <div className="h-12 w-12 rounded-lg bg-[#22C55E]/10 flex items-center justify-center shrink-0">
-                      <Clock className="h-6 w-6 text-[#22C55E]" />
+                    <div className="h-12 w-12 rounded-lg bg-[#3B82F6]/10 flex items-center justify-center shrink-0">
+                      <Mail className="h-6 w-6 text-[#3B82F6]" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg mb-1">Business Hours</h3>
-                      <p className="text-muted-foreground">Monday - Friday: 9AM - 6PM</p>
-                      <p className="text-muted-foreground">Saturday: 10AM - 4PM</p>
-                      <p className="text-sm text-muted-foreground mt-1">Closed on Sundays and public holidays</p>
+                      <h3 className="font-semibold text-lg mb-2 text-foreground">Email Us</h3>
+                      <p className="text-muted-foreground mb-3 leading-relaxed">For detailed inquiries and support</p>
+                      <a
+                        href="mailto:support@hapmasent.com"
+                        className="text-[#3B82F6] hover:text-[#2563EB] font-medium"
+                      >
+                        support@hapmasent.com
+                      </a>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-border hover:shadow-lg transition-shadow">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="h-12 w-12 rounded-lg bg-[#22C55E]/10 flex items-center justify-center shrink-0">
+                      <Phone className="h-6 w-6 text-[#22C55E]" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-lg mb-2 text-foreground">Call Us</h3>
+                      <p className="text-muted-foreground mb-3 leading-relaxed">Mon-Fri, 9AM - 6PM WAT</p>
+                      <a href="tel:+2348168818893" className="text-[#22C55E] hover:text-[#16A34A] font-medium">
+                        +234 816 881 8893
+                      </a>
                     </div>
                   </div>
                 </CardContent>
               </Card>
             </div>
+
+            {/* Contact Form */}
+            <Card className="border-2 border-[#22C55E]/20">
+              <CardHeader>
+                <CardTitle className="text-2xl">Send us a Message</CardTitle>
+                <CardDescription className="text-base">
+                  Fill out the form and we'll get back to you within 24 hours
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <form className="space-y-4">
+                  <div>
+                    <Label htmlFor="name" className="text-base">
+                      Full Name
+                    </Label>
+                    <Input id="name" placeholder="John Doe" className="mt-1.5" />
+                  </div>
+                  <div>
+                    <Label htmlFor="email" className="text-base">
+                      Email Address
+                    </Label>
+                    <Input id="email" type="email" placeholder="john@example.com" className="mt-1.5" />
+                  </div>
+                  <div>
+                    <Label htmlFor="phone" className="text-base">
+                      Phone Number
+                    </Label>
+                    <Input id="phone" type="tel" placeholder="+234 xxx xxxx xxx" className="mt-1.5" />
+                  </div>
+                  <div>
+                    <Label htmlFor="message" className="text-base">
+                      Message
+                    </Label>
+                    <Textarea id="message" placeholder="Tell us how we can help you..." rows={4} className="mt-1.5" />
+                  </div>
+                  <Button className="w-full bg-[#22C55E] hover:bg-[#16A34A] text-white" size="lg">
+                    Send Message
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-foreground text-white py-12">
+      <footer className="bg-gray-50 dark:bg-gray-900 border-t border-border py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-            {/* Company Info */}
+            {/* Brand */}
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-[#22C55E] to-[#16A34A] flex items-center justify-center">
                   <TrendingUp className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-xl font-bold">Hapmasent</span>
+                <span className="text-xl font-bold text-foreground">Hapmasent</span>
               </div>
-              <p className="text-white/70 text-sm leading-relaxed">
-                Secure investment platform offering consistent weekly returns and transparent investment opportunities
-                for Nigerian investors.
+              <p className="text-muted-foreground leading-relaxed">
+                Your trusted partner for secure and profitable investments in Nigeria.
               </p>
             </div>
 
             {/* Quick Links */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-sm">
+              <h3 className="font-semibold text-foreground mb-4">Quick Links</h3>
+              <ul className="space-y-2">
                 <li>
                   <button
                     onClick={() => scrollToSection("features")}
-                    className="text-white/70 hover:text-white transition-colors"
+                    className="text-muted-foreground hover:text-[#22C55E] transition-colors"
                   >
                     Features
                   </button>
@@ -736,7 +772,7 @@ export default function HapmasentLanding() {
                 <li>
                   <button
                     onClick={() => scrollToSection("tiers")}
-                    className="text-white/70 hover:text-white transition-colors"
+                    className="text-muted-foreground hover:text-[#22C55E] transition-colors"
                   >
                     Investment Tiers
                   </button>
@@ -744,7 +780,7 @@ export default function HapmasentLanding() {
                 <li>
                   <button
                     onClick={() => scrollToSection("how-it-works")}
-                    className="text-white/70 hover:text-white transition-colors"
+                    className="text-muted-foreground hover:text-[#22C55E] transition-colors"
                   >
                     How It Works
                   </button>
@@ -752,7 +788,7 @@ export default function HapmasentLanding() {
                 <li>
                   <button
                     onClick={() => scrollToSection("contact")}
-                    className="text-white/70 hover:text-white transition-colors"
+                    className="text-muted-foreground hover:text-[#22C55E] transition-colors"
                   >
                     Contact Us
                   </button>
@@ -760,58 +796,59 @@ export default function HapmasentLanding() {
               </ul>
             </div>
 
-            {/* Merchants */}
+            {/* Merchant Information */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Our Merchants</h3>
-              <ul className="space-y-3 text-sm">
+              <h3 className="font-semibold text-foreground mb-4">Our Merchants</h3>
+              <ul className="space-y-2">
                 <li>
-                  <div className="font-medium">Aminat Lawal</div>
-                  <div className="text-white/70">WhatsApp: 08122336699</div>
+                  <div className="text-muted-foreground">
+                    <div className="font-medium text-foreground">Poultry Farm</div>
+                    <div className="text-sm">Oyo State, Nigeria</div>
+                  </div>
                 </li>
                 <li>
-                  <div className="font-medium">Collins Anifowose</div>
-                  <div className="text-white/70">WhatsApp: 07022336699</div>
-                </li>
-                <li>
-                  <div className="font-medium">Edima Joy</div>
-                  <div className="text-white/70">WhatsApp: 07055889911</div>
+                  <div className="text-muted-foreground">
+                    <div className="font-medium text-foreground">Agriculture</div>
+                    <div className="text-sm">Multiple Locations</div>
+                  </div>
                 </li>
               </ul>
             </div>
 
-            {/* Contact */}
+            {/* Contact Info */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Contact</h3>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2 text-white/70">
-                  <Mail className="h-4 w-4" />
-                  support@hapmasent.com
+              <h3 className="font-semibold text-foreground mb-4">Contact</h3>
+              <ul className="space-y-3">
+                <li className="text-muted-foreground">
+                  <a
+                    href="https://wa.me/2348168818893"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#22C55E] transition-colors flex items-center gap-2"
+                  >
+                    <MessageCircle className="h-4 w-4" />
+                    +234 816 881 8893
+                  </a>
                 </li>
-                <li className="flex items-center gap-2 text-white/70">
-                  <Phone className="h-4 w-4" />
-                  +234 812 233 6699
-                </li>
-                <li className="flex items-center gap-2 text-white/70">
-                  <MessageCircle className="h-4 w-4" />
-                  WhatsApp Support
+                <li className="text-muted-foreground">
+                  <a
+                    href="mailto:support@hapmasent.com"
+                    className="hover:text-[#22C55E] transition-colors flex items-center gap-2"
+                  >
+                    <Mail className="h-4 w-4" />
+                    support@hapmasent.com
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-white/70">© 2026 Hapmasent Investment Enterprise. All rights reserved.</p>
-            <div className="flex gap-6 text-sm">
-              <a href="#" className="text-white/70 hover:text-white transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-white/70 hover:text-white transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="text-white/70 hover:text-white transition-colors">
-                Legal
-              </a>
-            </div>
+          {/* Bottom Bar */}
+          <div className="border-t border-border pt-8 text-center text-muted-foreground">
+            <p>&copy; 2025 Hapmasent Investment Enterprise. All rights reserved.</p>
+            <p className="text-sm mt-2">
+              Investment involves risk. Please invest responsibly and only what you can afford.
+            </p>
           </div>
         </div>
       </footer>

@@ -8,33 +8,46 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Hapmasent Investment Enterprise - Smart Investment, Weekly Returns",
+  title: "Hapmasent - Future of Smart Investment | 7% Weekly ROI",
   description:
-    "Invest securely with Hapmasent and earn 7% weekly ROI for 6 months. Join thousands of investors building wealth with our trusted investment platform in Nigeria.",
-  keywords: "investment, Nigeria, weekly returns, ROI, fintech, secure investment, Hapmasent",
+    "Experience next-generation investment technology with Hapmasent. Earn consistent 7% weekly returns through our AI-powered platform with bank-grade security and advanced protocols.",
+  keywords: "investment, fintech, AI trading, weekly returns, ROI, blockchain, cryptocurrency, Nigeria, secure investment, Hapmasent",
   authors: [{ name: "Hapmasent Investment Enterprise" }],
-  generator: "v0.app",
+  generator: "Next.js",
   openGraph: {
-    title: "Hapmasent Investment Enterprise - 7% Weekly ROI",
-    description: "Secure investment platform offering 7% weekly returns and 25% capital return over 6 months",
+    title: "Hapmasent - Future of Smart Investment",
+    description: "Next-generation investment platform offering 7% weekly returns with AI-powered technology and bank-grade security",
     type: "website",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Hapmasent Investment Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hapmasent - Future of Smart Investment",
+    description: "Experience next-generation investment technology with 7% weekly returns",
+    images: ["/logo.png"],
   },
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/logo.ico",
+        sizes: "32x32",
+        type: "image/x-icon",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/logo.png",
+        sizes: "192x192",
+        type: "image/png",
       },
     ],
-    apple: "/apple-icon.png",
+    shortcut: "/logo.ico",
+    apple: "/logo.png",
   },
 }
 
