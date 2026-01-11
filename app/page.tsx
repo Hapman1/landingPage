@@ -7,20 +7,21 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import {
-  Shield,
   TrendingUp,
-  Smartphone,
-  Users,
+  Shield,
   Clock,
+  Users,
+  Smartphone,
   HeadphonesIcon,
   CheckCircle2,
+  Download,
   Menu,
   X,
   Star,
-  Download,
-  Mail,
-  Phone,
   MessageCircle,
+  Mail,
+  MapPin,
+  Phone
 } from "lucide-react"
 
 export default function HapmasentLanding() {
