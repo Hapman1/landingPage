@@ -795,7 +795,7 @@ export default function HapmasentLanding() {
                 </p>
                 <div className="flex items-center gap-3">
                   <img
-                    src="/professional-woman-avatar.png"
+                    src="/professional-woman-avatar.jpg"
                     alt="Investor"
                     className="h-12 w-12 rounded-full"
                     loading="lazy"
@@ -821,7 +821,7 @@ export default function HapmasentLanding() {
                 </p>
                 <div className="flex items-center gap-3">
                   <img
-                    src="/professional-man-avatar.png"
+                    src="/professional-man-avatar.jpg"
                     alt="Investor"
                     className="h-12 w-12 rounded-full"
                     loading="lazy"
@@ -847,14 +847,14 @@ export default function HapmasentLanding() {
                 </p>
                 <div className="flex items-center gap-3">
                   <img
-                    src="/professional-woman-smiling-avatar.png"
+                    src="/professional-woman-smiling-avatar.jpg"
                     alt="Investor"
                     className="h-12 w-12 rounded-full"
                     loading="lazy"
                   />
                   <div>
                     <div className="font-semibold text-foreground">Blessing Adeyemi</div>
-                    <div className="text-sm text-muted-foreground">Port Harcourt, Nigeria</div>
+                    <div className="text-sm text-muted-foreground">Lagos, Nigeria</div>
                   </div>
                 </div>
               </CardContent>
