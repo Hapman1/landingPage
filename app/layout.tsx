@@ -8,6 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://hapmasent.com'),
   title: "Hapmasent - Future of Smart Investment | 7% Weekly ROI",
   description:
     "Experience next-generation investment technology with Hapmasent. Earn consistent 7% weekly returns through our AI-powered platform with bank-grade security and advanced protocols.",
