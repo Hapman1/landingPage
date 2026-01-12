@@ -790,8 +790,8 @@ export default function HapmasentLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  "Hapmasent transformed my financial situation. The weekly returns are consistent and the platform is
-                  incredibly easy to use. Highly recommend!"
+                  "Hapmasent transformed my financial situation as a student. The weekly returns are consistent and the platform is
+                  incredibly easy to use. Now, I never run out of fund!"
                 </p>
                 <div className="flex items-center gap-3">
                   <img
@@ -801,8 +801,8 @@ export default function HapmasentLanding() {
                     loading="lazy"
                   />
                   <div>
-                    <div className="font-semibold text-foreground">Sarah Johnson</div>
-                    <div className="text-sm text-muted-foreground">Lagos, Nigeria</div>
+                    <div className="font-semibold text-foreground">Al-Ameen Azeezat</div>
+                    <div className="text-sm text-muted-foreground">Yabatech, Lagos, Nigeria</div>
                   </div>
                 </div>
               </CardContent>
@@ -816,7 +816,7 @@ export default function HapmasentLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  "Been investing for 3 months now. Returns are exactly as promised and withdrawal process is smooth.
+                  "I invested last year at risk and it pay off. Returns are exactly as promised and withdrawal process is smooth.
                   Great customer support too!"
                 </p>
                 <div className="flex items-center gap-3">
@@ -828,7 +828,7 @@ export default function HapmasentLanding() {
                   />
                   <div>
                     <div className="font-semibold text-foreground">Michael Okonkwo</div>
-                    <div className="text-sm text-muted-foreground">Abuja, Nigeria</div>
+                    <div className="text-sm text-muted-foreground">Abeokuta, Nigeria</div>
                   </div>
                 </div>
               </CardContent>
