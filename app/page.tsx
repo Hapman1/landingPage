@@ -282,7 +282,7 @@ export default function HapmasentLanding() {
                 {/* Main Image */}
                 <div className="relative z-10 transform hover:scale-105 transition-transform duration-500">
                   <img
-                    src="/modern-investment-mobile-app-mockup-showing-dashbo.jpg"
+                    src="/modern-investment-mobile-app-mockup-showing-dashbo.png"
                     alt="Investment App"
                     className="w-full max-w-md drop-shadow-2xl rounded-3xl"
                     loading="lazy"
@@ -892,7 +892,7 @@ export default function HapmasentLanding() {
                 {/* Main Phone Mockup */}
                 <div className="relative z-10 transform group-hover:scale-105 transition-transform duration-500">
                   <img
-                    src="/mobile-app-screenshots-showcase-investment-platfor.jpg"
+                    src="/mobile-app-screenshots-showcase-investment-platfor.png"
                     alt="Mobile App"
                     className="w-full max-w-sm drop-shadow-2xl rounded-3xl"
                     loading="lazy"
