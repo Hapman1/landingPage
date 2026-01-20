@@ -41,9 +41,9 @@ export default function HapmasentLanding() {
   }, [])
 
   // Calculator
-  const weeklyReturn = investmentAmount * 0.07
+  const weeklyReturn = investmentAmount * 0.05
   const totalWeeklyReturns = weeklyReturn * 24 // 6 months = 24 weeks
-  const capitalReturn = investmentAmount * 0.25
+  const capitalReturn = investmentAmount * 0.50
   const totalProfit = totalWeeklyReturns + capitalReturn
 
   const scrollToSection = (id: string) => {
@@ -201,7 +201,7 @@ export default function HapmasentLanding() {
                 </h1>
                 
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                  Experience the future of investing with <span className="text-primary font-semibold">7% weekly ROI</span> for 6 months. 
+                  Experience the future of investing with <span className="text-primary font-semibold">5% weekly ROI</span> for 6 months. 
                   Join thousands building wealth with our AI-powered platform.
                 </p>
               </div>
@@ -211,14 +211,14 @@ export default function HapmasentLanding() {
                 <div className="glass rounded-xl p-6 border border-primary/20 hover:border-primary/40 transition-all duration-300 group">
                   <div className="flex items-center gap-3 mb-2">
                     <BarChart3 className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
-                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold gradient-text">7%</div>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold gradient-text">5%</div>
                   </div>
                   <div className="text-xs md:text-sm text-muted-foreground">Weekly ROI</div>
                 </div>
                 <div className="glass rounded-xl p-6 border border-cyan-500/20 hover:border-cyan-500/40 transition-all duration-300 group">
                   <div className="flex items-center gap-3 mb-2">
                     <Wallet className="h-6 w-6 text-cyan-500 group-hover:scale-110 transition-transform" />
-                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-500">25%</div>
+                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-500">50%</div>
                   </div>
                   <div className="text-xs md:text-sm text-muted-foreground">Capital Return</div>
                 </div>
@@ -490,11 +490,11 @@ export default function HapmasentLanding() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 p-3 rounded-lg glass border border-primary/20">
                     <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0" />
-                    <span className="font-medium">7% Weekly ROI Guaranteed</span>
+                    <span className="font-medium">5% Weekly ROI Guaranteed</span>
                   </div>
                   <div className="flex items-center gap-3 p-3 rounded-lg glass border border-cyan-500/20">
                     <CheckCircle2 className="h-5 w-5 text-cyan-500 flex-shrink-0" />
-                    <span className="font-medium">25% Capital Return Bonus</span>
+                    <span className="font-medium">50% Capital Return Bonus</span>
                   </div>
                   <div className="flex items-center gap-3 p-3 rounded-lg glass border border-purple-500/20">
                     <CheckCircle2 className="h-5 w-5 text-purple-500 flex-shrink-0" />
@@ -537,11 +537,11 @@ export default function HapmasentLanding() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3 p-3 rounded-lg glass border border-cyan-500/20">
                     <CheckCircle2 className="h-5 w-5 text-cyan-500 flex-shrink-0" />
-                    <span className="font-medium">7% Weekly ROI Guaranteed</span>
+                    <span className="font-medium">5% Weekly ROI Guaranteed</span>
                   </div>
                   <div className="flex items-center gap-3 p-3 rounded-lg glass border border-purple-500/20">
                     <CheckCircle2 className="h-5 w-5 text-purple-500 flex-shrink-0" />
-                    <span className="font-medium">25% Capital Return Bonus</span>
+                    <span className="font-medium">50% Capital Return Bonus</span>
                   </div>
                   <div className="flex items-center gap-3 p-3 rounded-lg glass border border-primary/20">
                     <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0" />
@@ -619,7 +619,7 @@ export default function HapmasentLanding() {
                 <div className="glass rounded-xl p-6 border-2 border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 group/card">
                   <div className="flex items-center gap-3 mb-3">
                     <Target className="h-6 w-6 text-purple-500 group-hover/card:animate-pulse" />
-                    <div className="text-xs md:text-sm text-muted-foreground font-medium">Capital Return (25%)</div>
+                    <div className="text-xs md:text-sm text-muted-foreground font-medium">Capital Return (50%)</div>
                   </div>
                   <div className="text-2xl md:text-3xl font-bold text-purple-500">₦{capitalReturn.toLocaleString("en-NG")}</div>
                   <div className="text-xs text-muted-foreground mt-1">At maturity</div>
@@ -762,7 +762,7 @@ export default function HapmasentLanding() {
                     <h3 className="text-lg md:text-xl font-bold text-foreground">Earn Weekly</h3>
                   </div>
                   <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                    Receive automated 7% weekly returns plus 25% capital back with real-time tracking
+                    Receive automated 5% weekly returns plus 50% capital back with real-time tracking
                   </p>
                 </div>
               </div>
@@ -1127,7 +1127,7 @@ export default function HapmasentLanding() {
       {/* Footer */}
       <footer className="bg-gray-50 dark:bg-gray-900 border-t border-border py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
             {/* Brand */}
             <div>
               <div className="flex items-center gap-2 mb-4">
@@ -1184,6 +1184,35 @@ export default function HapmasentLanding() {
               </ul>
             </div>
 
+            {/* Legal */}
+            <div>
+              <h3 className="font-semibold text-foreground mb-4">Legal</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/terms-of-service"
+                    className="text-muted-foreground hover:text-[#22C55E] transition-colors"
+                  >
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/privacy-policy"
+                    className="text-muted-foreground hover:text-[#22C55E] transition-colors"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <div className="text-muted-foreground">
+                    <div className="font-medium text-foreground">Regulated by</div>
+                    <div className="text-sm">SEC Nigeria</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
             {/* Merchant Information */}
             <div>
               <h3 className="font-semibold text-foreground mb-4">Our Merchants</h3>
@@ -1234,9 +1263,13 @@ export default function HapmasentLanding() {
           {/* Bottom Bar */}
           <div className="border-t border-border pt-8 text-center text-muted-foreground">
             <p>&copy; 2024 Hapmasent Investment Enterprise. All rights reserved.</p>
-            <p className="text-sm mt-2">
-              Investment involves risk. Please invest responsibly and only what you can afford.
-            </p>
+            <div className="flex flex-wrap justify-center gap-4 mt-4 text-sm">
+              <a href="/terms-of-service" className="hover:text-[#22C55E] transition-colors">Terms of Service</a>
+              <span>•</span>
+              <a href="/privacy-policy" className="hover:text-[#22C55E] transition-colors">Privacy Policy</a>
+              <span>•</span>
+              <span>Investment involves risk. Please invest responsibly.</span>
+            </div>
           </div>
         </div>
       </footer>

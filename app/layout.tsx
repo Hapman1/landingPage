@@ -9,15 +9,15 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://hapmasent.com'),
-  title: "Hapmasent - Future of Smart Investment | 7% Weekly ROI",
+  title: "Hapmasent - Future of Smart Investment | 5% Weekly ROI",
   description:
-    "Experience next-generation investment technology with Hapmasent. Earn consistent 7% weekly returns through our AI-powered platform with bank-grade security and advanced protocols.",
+    "Experience next-generation investment technology with Hapmasent. Earn consistent 5% weekly returns through our AI-powered platform with bank-grade security and advanced protocols.",
   keywords: "investment, fintech, AI trading, weekly returns, ROI, blockchain, cryptocurrency, Nigeria, secure investment, Hapmasent",
   authors: [{ name: "Hapmasent Investment Enterprise" }],
   generator: "Next.js",
   openGraph: {
     title: "Hapmasent - Future of Smart Investment",
-    description: "Next-generation investment platform offering 7% weekly returns with AI-powered technology and bank-grade security",
+    description: "Next-generation investment platform offering 5% weekly returns with AI-powered technology and bank-grade security",
     type: "website",
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Hapmasent - Future of Smart Investment",
-    description: "Experience next-generation investment technology with 7% weekly returns",
+    description: "Experience next-generation investment technology with 5% weekly returns",
     images: ["/logo.png"],
   },
   icons: {
